@@ -172,6 +172,10 @@ span.icon-menu {
 
 .concepts p {
   color: white;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
 }
 
 .concepts .box {
@@ -207,6 +211,7 @@ span.icon-menu {
   margin-top: 25px;
   margin-bottom: 0px;
   justify-content: center;
+  padding-right: 5px;
 }
 
 .link li {
@@ -220,11 +225,11 @@ span.icon-menu {
   height: 15px;
   position: relative;
   top: 5px;
-  left: -5px;
+  left: -8px;
 }
 
 .link li:nth-child(even) {
-  padding-left: 5px;
+  padding-left: 10px;
   display: flex;
 }
 
@@ -263,7 +268,7 @@ span.icon-menu {
 }
 
 .applications hr {
-  margin-top: 10px;
+  margin-top: 60px;
 }
 
 .applications .img-sec {
@@ -523,6 +528,10 @@ body {
 .box .title {
   font-size: 25px;
   color: white;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
 }
 
 .box img {
@@ -533,13 +542,13 @@ body {
 
 .img-sec {
   position: absolute;
-  bottom: 20px;
+  bottom: 37px;
   right: 19px;
   width: 130px;
 }
 
 hr {
-  margin-top: 18px;
+  margin-top: 95px;
   margin-bottom: 0;
   border: 0;
   border-top: 1px solid white;
@@ -552,6 +561,10 @@ hr {
 .header-information p {
   color: #095a60;
   font-size: 17px;
+  font-style: normal;
+  font-stretch: normal;
+  line-height: normal;
+  letter-spacing: normal;
 }
 
 .synthesize {
@@ -569,6 +582,7 @@ hr {
 
 .synthesize .title {
   color: #809eb3;
+  font-weight: bold;
 }
 
 .synthesize .box p {
@@ -601,12 +615,86 @@ img.time-img {
   line-height: normal;
   letter-spacing: normal;
   border-bottom: 2px solid;
-  width: 422px;
+  width: max-content;
   font-weight: bold;
   font-family: "HelveticaNeueLtBold", Fallback, sans-serif;
 }
 
+.image {
+  display: block;
+  width: 300px;
+  margin: auto;
+}
+
 /* Less than --feather-grid-page-width + (--feather-grid-mega * 2) */
+
+
+@media (min-width: 1480px) {
+  .col-20 {
+    flex: 0 0 19%;
+    max-width: 19%;
+  }
+
+  .applications hr {
+    margin-top: 39px;
+  }
+
+  hr {
+    margin-top: 84px;
+  }
+
+  .img-sec {
+    bottom: 40px;
+  }
+
+  .wrapper {
+    max-width: 1820px;
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 20px;
+  }
+
+  .libraries a {
+    font-size: 16px;
+  }
+
+  .concepts .box p {
+    font-size: 26px;
+  }
+
+  .box p {
+    font-size: 22px;
+  }
+
+  .des-section {
+    font-size: 26px;
+  }
+
+  .header-information p {
+    font-size: 26px;
+  }
+
+  .box .title {
+    font-size: 34px;
+  }
+
+  .header-information h1 {
+    font-size: 42px;
+  }
+
+  .section-title {
+    font-size: 38px;
+  }
+}
+
+@media (min-width: 1700px) {
+  .col-20 {
+    flex: 0 0 18%;
+    max-width: 18%;
+  }
+}
+
 @media (max-width: 1236px) {
   .container {
     margin: 0 auto;
