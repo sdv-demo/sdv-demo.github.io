@@ -14,10 +14,6 @@ install:
   - pip install -r requirements.txt
 
 script:
-  - if [ $TRAVIS_EVENT_TYPE == "cron" ];
-    then python scripts/fetch_projects.py;
-    else echo "Not triggered by cron";
-    fi;
 
 deploy:
   provider: pages
