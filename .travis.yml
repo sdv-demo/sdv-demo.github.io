@@ -2,6 +2,11 @@ branches:
   only:
     - master
 
+language: ruby
+
+rvm:
+  - 2.7.1
+
 git:
   depth: false
 
