@@ -12,7 +12,7 @@ css
 
 @font-face {
   font-family: "HelveticaNeueLt";
-  src: url("../fonts/HelveticaNeue.ttf") format("truetype");
+  src: url("../fonts/HelveticaNeueLt.ttf") format("truetype");
 }
 
 @font-face {
@@ -151,6 +151,7 @@ span.icon-menu {
 
 .des-section {
   font-size: 17px;
+  font-weight: 600;
 }
 
 .purple {
@@ -570,6 +571,7 @@ hr {
   font-stretch: normal;
   line-height: normal;
   letter-spacing: normal;
+  font-weight: 600;
 }
 
 .synthesize {
@@ -644,6 +646,12 @@ img.time-img {
   color: rgb(226 222 96);
 }
 @media (min-width: 1480px) {
+  hr {
+    margin-top: 155px;
+  }
+  .box {
+    height: 200px;
+  }
   .col-20 {
     flex: 0 0 19%;
     max-width: 19%;
@@ -654,7 +662,7 @@ img.time-img {
   }
 
   .wrapper {
-    max-width: 1820px;
+    max-width: 1580px;
   }
 
   .navbar-light .navbar-nav .nav-link {
@@ -692,12 +700,11 @@ img.time-img {
   .section-title {
     font-size: 38px;
   }
-}
-
-@media (min-width: 1700px) {
-  .col-20 {
-    flex: 0 0 18%;
-    max-width: 18%;
+  .applications .box {
+    height: 200px;
+  }
+  .applications hr {
+    margin-top: 155px;
   }
 }
 
