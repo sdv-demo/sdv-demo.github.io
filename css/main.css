@@ -242,6 +242,7 @@ span.icon-menu {
 .libraries a {
   font-size: 13px;
   color: #3a1951;
+  font-weight: 600;
 }
 
 .applications {
@@ -348,7 +349,7 @@ a.home-title-page {
 /* Headers */
 
 .header-img img {
-  width: 450px;
+  width: 550px;
   margin-top: 55px;
 }
 
@@ -648,6 +649,15 @@ img.time-img {
   color: rgb(226 222 96);
 }
 @media (min-width: 1480px) {
+  .header-img img {
+    width: 750px;
+  }
+  .navbar-light .navbar-nav .nav-item {
+    padding: 0 65px;
+  }
+  .navbar-light .navbar-nav .nav-item:last-child {
+    padding-right: 0;
+  }
   .libraries .box img {
     width: 110px;
     transform: translate(0%, 35%);
