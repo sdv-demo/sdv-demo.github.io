@@ -651,6 +651,7 @@ img.time-img {
 @media (min-width: 1480px) {
   .header-img img {
     width: 750px;
+    padding-right: 3.3%;
   }
   .navbar-light .navbar-nav .nav-item {
     padding: 0 65px;
