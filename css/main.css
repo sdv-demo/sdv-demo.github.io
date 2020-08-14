@@ -649,7 +649,8 @@ img.time-img {
 }
 @media (min-width: 1480px) {
   .libraries .box img {
-    width: 150px;
+    width: 110px;
+    transform: translate(0%, 25%);
   }
   .link {
     position: absolute;
@@ -727,6 +728,9 @@ img.time-img {
   .applications hr {
     margin-top: 185px;
   }
+  .synthesize img {
+    width: 100%;
+  }
 }
 
 @media (max-width: 1236px) {
@@ -756,7 +760,11 @@ img.time-img {
     margin-bottom: var(--feather-grid-small);
   }
 }
-
+@media (max-width: 1119px) {
+  .image {
+    width: 100%;
+  }
+}
 @media (max-width: 1023px) {
   .image {
     width: 100%;
