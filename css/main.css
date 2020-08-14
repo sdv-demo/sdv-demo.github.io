@@ -650,7 +650,7 @@ img.time-img {
 @media (min-width: 1480px) {
   .libraries .box img {
     width: 110px;
-    transform: translate(0%, 25%);
+    transform: translate(0%, 35%);
   }
   .link {
     position: absolute;
