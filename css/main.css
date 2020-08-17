@@ -762,6 +762,16 @@ img.time-img {
   }
 }
 @media (min-width: 2200px) {
+  .concepts hr {
+    width: 82%;
+    bottom: 25px;
+  }
+  hr {
+    margin-top: 205px;
+  }
+  .box {
+    height: 250px;
+  }
   .synthesize .col-md-4 {
     height: 480px;
   }
@@ -772,7 +782,7 @@ img.time-img {
     font-size: 28px;
   }
   .synthesize {
-    padding: 2.8rem 0px 3%;
+    padding: 4% 0px 3%;
   }
   .synthesize .col-md-4 {
     height: 460px;
