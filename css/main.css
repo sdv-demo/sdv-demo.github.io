@@ -762,6 +762,15 @@ img.time-img {
   }
 }
 @media (min-width: 2200px) {
+  .synthesize .col-md-4 {
+    height: 480px;
+  }
+  .image {
+    width: 450px;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    font-size: 28px;
+  }
   .synthesize {
     padding: 2.8rem 0px 3%;
   }
